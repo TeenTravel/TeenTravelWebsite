@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teen Travel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fef6e4;
+            color: #333;
+        }
+        header {
+            background-color: #a2d2ff;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #ffe5d9;
+            padding: 0.5rem;
+        }
+        nav a {
+            text-decoration: none;
+            color: #333;
+            margin: 0 1rem;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ff8fab;
+        }
+        .section {
+            padding: 2rem;
+            text-align: center;
+        }
+        .cta {
+            background-color: #bde0fe;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+        }
+        .cta h2 {
+            margin-bottom: 1rem;
+        }
+        .cta form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .cta form input, .cta form textarea, .cta form button {
+            margin: 0.5rem 0;
+            padding: 0.8rem;
+            width: 80%;
+            max-width: 400px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .cta form button {
+            background-color: #ffafcc;
+            color: white;
+            font-size: 1rem;
+            border: none;
+            cursor: pointer;
+        }
+        .cta form button:hover {
+            background-color: #ff8fab;
+        }
+        footer {
+            background-color: #a2d2ff;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Teen Travel</h1>
+    </header>
+    <nav>
+        <a href="#usluge">Usluge</a>
+        <a href="#putovanja">Putovanja</a>
+        <a href="#prethodna">Prethodna Putovanja</a>
+        <a href="#znanje">Šta Treba da Znate</a>
+        <a href="#o-andjeli">O Anđeli</a>
+        <a href="#shop">Shop</a>
+    </nav>
+    <section id="usluge" class="section">
+        <h2>Usluge</h2>
+        <p>Organizujemo jedinstvene i nezaboravne ture za mlade!</p>
+    </section>
+    <section id="putovanja" class="section">
+        <h2>Putovanja u Ponudi</h2>
+        <p>Proverite naše aktuelne destinacije i izaberite svoju avanturu.</p>
+    </section>
+    <section id="prethodna" class="section">
+        <h2>Prethodna Putovanja</h2>
+        <p>Pogledajte uspomene sa naših prošlih putovanja.</p>
+    </section>
+    <section id="znanje" class="section">
+        <h2>Šta Treba da Znate</h2>
+        <p>Važni saveti za vaše sledeće putovanje.</p>
+    </section>
+    <section id="o-andjeli" class="section">
+        <h2>O Anđeli</h2>
+        <p>Osnivač Teen Travel-a, zaljubljenik u putovanja i organizaciju!</p>
+    </section>
+    <section id="shop" class="section">
+        <h2>Shop</h2>
+        <p>Uskoro...</p>
+    </section>
+    <div class="cta">
+        <h2>Zainteresovani za putovanje?</h2>
+        <form action="mailto:teentravelbalkan@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Vaše ime" required>
+            <input type="email" name="email" placeholder="Vaš email" required>
+            <textarea name="message" rows="5" placeholder="Napišite poruku ili upit"></textarea>
+            <button type="submit">Pošalji zahtev</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 Teen Travel. Sva prava zadržana.</p>
+    </footer>
+</body>
+</html>
